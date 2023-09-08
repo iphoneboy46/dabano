@@ -1,0 +1,28 @@
+.fixedbar{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s linear;
+    bottom: 10rem !important;
+    
+}
+
+
+
+
+.fixedbar.showed{
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width:600px) {
+    .fixedbar{
+        right: 1rem !important;
+    }
+
+    .fixedbar-item{
+       
+    width: 3.8rem  !important;
+    height: 3.8rem  !important;
+    }
+   
+}
